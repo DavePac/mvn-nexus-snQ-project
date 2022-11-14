@@ -37,3 +37,8 @@ Create the .m2 directory in the home directory of your current user mkdir ~/.m2
 Create the Settings file inside of the ~/.m2 directory cd ~/.m2/ mv demo/settings.xml ~/.m2/
 
 
+##################
+mvn sonar:sonar \
+  -Dsonar.projectKey=java-webapp \
+  -Dsonar.host.url=http://3.80.24.61:9000 \
+  -Dsonar.login=f88bc17f530c294c1614b76fe9dc898639a4bcd5
